@@ -147,4 +147,5 @@ async def commandes(ctx):
 - !conclusion : Lance l'attaque finale
 """)
 
-bot.run('MTM2NTc0MTc5NzUxMDQ4NDAwOQ.GhSWQE.BUDhsOYZHgaFuBsncfywSow1hdGRG6fNTzbCjM')
+import os
+bot.run(os.getenv('DISCORD_TOKEN'))
